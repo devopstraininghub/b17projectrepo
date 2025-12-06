@@ -1,0 +1,2 @@
+harika adding text file practice
+directly adding text through cmd line
