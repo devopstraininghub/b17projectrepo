@@ -1,0 +1,5 @@
+basic commnads
+ls -ltrh
+mkdir
+cp 
+mv
