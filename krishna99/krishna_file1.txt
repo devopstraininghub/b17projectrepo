@@ -1,1 +1,3 @@
-Hi, welcome to DevOps 
+Hi, welcome to DevOps
+
+Hello, practice DevOps
