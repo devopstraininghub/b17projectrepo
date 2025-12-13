@@ -1,0 +1,29 @@
+production commands
+touch
+cp
+mv
+cd
+vim
+cat
+grep
+ifconfig
+ip addr 
+route -n
+netstat
+pcat 
+tar
+gzip
+rm
+useradd
+userdel
+usermod
+sudo
+su
+lvextend
+lvcreate
+vgcreate
+pvcreate
+lvs
+vgs
+pvs
+
