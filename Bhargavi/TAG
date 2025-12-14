@@ -1,8 +1,0 @@
-TAG:
-
-git tag
-
-git tag <t.name>
-git checkout <t.name>
-git tag -d <tag.name>
-git push origin <tag.name>
