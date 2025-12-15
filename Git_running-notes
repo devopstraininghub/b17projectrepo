@@ -1,0 +1,444 @@
+==============================================
+GIT & GIT - BASH 
+
+GIT INSTALL 
+
+LINUX BASICS:
+
+touch file1 
+touch file2 file3 file4 
+------
+mkdir dir1 
+mkdir dir2 dir3 
+----
+rm -rf file/dir 
+
+
+cd dir1
+
+cdls -la 
+
+-------------------
+ 499  git --version
+  500  pwd
+  501  touch file2
+  502  touch file3 file4 file5
+  503  mkdir  dir2 dir3
+  504  rm -rf file2
+  505  rm -rf dir3
+  506  clear
+  507  cd dir1/
+  508  pwd
+  509  touch aws
+  510  touch cloud
+  511  cd ..
+  512  clear
+  513  ls
+  514  ll
+  515  ls -lrth
+  516  history
+========================
+
+date : 2 dec 25 
+
+cat fname 
+
+vi / vim /nano 
+
+========================================================
+GIT : 
+
+
+git init  ---> empty repo 
+
+git config --global user.name kiran
+git config --global user.email  kiran@gmail.com
+
+touch file1
+
+git status -- red (untracked)
+git add fname 
+git status  --> green 
+git commit -m "msg" fname
+git log 
+
+
+============================================================
+491  touch jenkins devops docker k8s aws
+  492  clear
+  493  cd ..
+  494  ll
+  495  cat file3
+  496  LL
+  497  ll
+  498  cat file3
+  499  cat file3
+  500  ls
+  501  git init
+  502  git config --global user.name "madhu"
+  503  git config --global user.email "madhu@gmail.com"
+  504  ls
+  505  touch file1
+  506  ls
+  507  ll
+  508  git status
+  509  git add file1
+  510  git status
+  511  clear
+  512  git status
+  513  git commit -m "my first commit" file1
+  514  git status
+  515  clear
+  516  git log
+  517  git show 4d6e2a6752ef98a191c5be079f8a3a27a63abd6d
+  518  touch chiru balayya naga venky
+  519  ll
+  520  git status
+  521  git add chiru venky
+  522  git status
+  523  git commit -m "chiru-venky commit" chiru venky
+  524  git log
+  525  git show a1516dae35b8a3231c10f65a5c849e508bf7698a
+  526  git status
+  527  touch m1 m2 m3 m4 m5 m6
+  528  git status
+  529  git add .
+  530  clear
+  531  git status
+  532  git commit -m "All files commit"
+  533  clear
+  534  git status
+  535  git log
+  536  git show a3f4eef7a28edabf8353d62b5208bde9e051fdb0
+  537  git config --global user.name kiran
+  538  git config --global user.email "kiran@gmail.com"
+  539  touch k1 k2 k3
+  540  ll
+  541  git status
+  542  git add .
+  543  git status
+  544  git commit -m "kiran file commits"
+  545  git log
+  546  clear
+  547  git log
+  548  git show 3f9cf3afab3073c71e6d7598bc2ad01c798177bd
+  549  ll
+  550  ls -la
+  551  history
+========================
+
+DATE : 3 DEC 25
+
+TOKEN: 
+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
+
+
+
+
+3 phases 
+
+by default file -->  workspace 
+
+git init 
+touch fname 
+
+git status  -->  workspace 
+git add .   -->
+git status  -->   staging 
+git commit -m "message" 
+git log 
+===============
+
+GH/BITBUCKET  ACCOUNT :
+
+vineeth-sankre
+
+
+Central Project Repo cration ----> B17PROJECTREPO 
+
+
+git clone https://github.com/devopstraininghub/b17projectrepo.git
+
+git clone https://github.com/<xyz >/xyzprojectrepo.git
+
+ll --> b17projectrepo
+
+touch fname
+
+touch files 
+
+git status ---> red 
+
+git add .  ---> green 
+
+git commit  --> cid 
+
+git status 
+
+git log 
+
+git push 
+
+==================
+MODIFY THE FILE 
+
+ADDING THE FILE 
+MODIFYIGN THE FILE 
+DELETING THE FILE 
+Try again
+
+================
+MODIFY THE FILE 
+
+repeat 
+
+====================
+
+DATE : 4 DEC 2025
+
+REAL TIME SCENARIO 
+
+Ramani :
+
+git clone https://github.com/devopstraininghub/b17projectrepo.git
+
+ll --> b17projectrepo
+
+cd b17projectrepo
+
+touch ramani
+git add . 
+git status 
+git commit -m "Ramani commit" 
+git log
+git push   --> (if error) 
+
+--------
+git pull --rebase
+git push 
+
+
+
+================================
+GIT BRANCH:
+
+git branch 
+git branch <br.name> 
+git checkout <br.name>
+git checkout -b <br.name>
+git merge <br.name> 
+git branch -d <br.name> 
+git branch -D <br.name> 
+
+=======
+
+===================================================
+
+DATE  5 DEC 25 
+
+git clone <URL> 
+git branch fet_vc
+git checkout fet_vc
+
+----  
+--
+operations 
+--
+----
+git checkout main 
+git merge fet_vc
+
+git push 
+
+===========
+
+git push https://github.com/devopstraininghub/b17projectrepo.git fet_vc
+
+git push origin branchname
+
+===========================
+GIT CHERRY PICK : 
+
+git cherry-pick cid 
+
+
+=============================================
+
+
+
+LINUX FILE EDITORS --> VI / VIM / NANO 
+
+vim fname 
+
+esc --> i  ( insert) 
+
+   --- 
+   --- 
+    data
+   --- 
+   --- 
+
+esc : w
+esc : q
+esc : wq
+esc : q!
+
+==================
+
+git conflict : 
+ .. 
+
+path --> C:\Users\Dell\Desktop\madhukiran
+
+pwd
+
+clear -- to clear the screen
+
+
+view : 
+ls 
+ll 
+ls -lrth 
+
+===========================
+
+- GIT REALTIME BRANCHING 
+- OPEN SOURCE LIVE PROJECT EXPAMPLE 
+- GIT CHERRY-PICK
+- VI EDITOR 
+
+==================================================
+DATE: 8 DEC 25 
+
+GIT CONFLICTS 
+
+merge conflcts 
+
+========================
+git amend
+-----
+git commit --amend -m "label" -m "label2" -m "label3"
+
+amend
+-----
+git commit --amend -m "label" -m "label2" -m "label3"
+
+====================================
+
+FILTERING:
+git log -n 
+git log --oneline 
+git log --oneline -n 
+git log --author kiran
+git log --since="YYYY-MM-DD"  or git log --since="December 6 2025"
+
+
+
+This option filters the commits to only show those that were made after the specified date
+The date format used here is "YYYY-MM-DD"
+
+======================
+git config --global user.user mcuser
+git config --global user.email mcuser@gmail.com
+git config --list 
+
+========================
+
+Alias 
+-----
+git status  ---> git sts 
+
+git config --global alias.s "status"
+git config --global alias.s "status"
+git s
+
+git log
+git config --global alias.l "log"
+git l
+
+
+git log --oneline
+git config --global alias.lo "log --oneline"
+git lO
+ 
+======
+git config --global --unset alias.s
+
+==============================
+
+====================================
+only for modified files :
+
+git commit -am "messgae"
+
+=======================================
+
+DATE:  10 DEC 25 
+
+1. APP ACCESS 
+2. HOW TO PRACTICE --> GENERAL MISTAKES 
+
+PULL REQUESTS / MERGE REQUEST 
+
+REAL TIME SCENARIOS 
+
+
+FORK 
+
+HOW TO DO OPEN SOURCE CONTRIBUTION
+======================================
+
+date: 11 DEC 25
+
+git reset :
+
+git reset HEAD fname ---> staging to WS 
+
+git reset --soft cid (n-1)  ----> LR to Staging
+
+git reset --mixed cid (n-1) ----> LR to Workspace 
+
+======================
+GIT TAG:
+
+
+git tag
+git tag <tag.name> cid 
+git checkout <tag.name>
+git tag -d <tag.name>
+git push origin <tag.name>
+git push origin -d <tag.name>
+
+===============================
+
+DATE : 12 DEC 25 
+
+GIT BRANCH PROTECTION 
+
+
+vineeth token : ghp_EtNyimqzkBieVktQYxxxxxxxxxxxxxxxxxxxx
+
+
+GIT MERGE VS REBASE 
+
+     Combines two branches together.
+     Creates a new merge commit to join the histories.
+     Does NOT modify existing history (safe operation).
+	 History shows when and where branches are merged.
+     But the commit graph can become cluttered (more branches and merge commits).
+
+
+REBASE: 
+    Moves your branch’s commits on top of another branch’s latest commit.
+    Rewrites history by changing commit parents.    
+    Produces a clean, linear history    
+    Best for personal feature branches before pushing.
+	Very clean, straight (linear) commit history.
+	But rewriting history can be dangerous if used on shared branches.
+
+
+git pull --rebase ????
+
+GIT PULL VS GIT FETCH 
+
+git pull = git fetch + git merge orign 
