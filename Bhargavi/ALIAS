@@ -6,6 +6,6 @@ git sts
 
 git log
 git config --global alias.l "log"
-git la
+git l
 
 git config --global --unset alias.sts
