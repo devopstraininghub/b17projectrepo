@@ -1,0 +1,301 @@
+
+********** GIT & GIT HUB *************
+
+Install git ( https://git-scm.com/install/windows )
+
+git --version ( To check the version of git )
+
+Basic Linux Commands:
+
+touch filename
+
+touch filename1 filename2 filename3 ( TO create multiple files )
+
+cat filename ( To view the content in the file )
+
+vi / vim / nano ( To edit the content in the file )
+
+mv filename newfilename ( To replace the filename )
+
+mkdir dirname
+
+mkdir dirnmae1 dirname2 dirname3 ( TO create multiple directories )
+
+rm -rf filename or dirname ( To remove file or directory with recursively & forcefully )
+
+ls ( list files )
+
+ll ( long list )
+
+ls -lrth ( To open all the files with all details )
+
+ls -la ( To view include all hidden files )
+
+cd /home ( To change the directory )
+
+cd .. ( To comeback from the present directory a step back )
+
+pwd ( To check present working directory )
+
+clear ( To clear the screen )
+
+*****************************************************************************************
+
+Repository ( 
+
+git init ( To initalize the empty repo )
+
+git config --global user.name "username" ( To configure the user details )
+
+git config --global user.email "test.com"
+
+git status ( To check the status )
+
+git add filename ( To move the file from workspace to staging )
+ 
+git status 
+
+By defauly files will be in workspace which indicates the files in RED colour
+
+git commit -m "msg" filename ( Will move from staging to local repo )
+
+git status
+
+Files will be change from RED to green ( i.e files moved from workspace to staging )
+
+git log ( To check the commit details of a user who modified )
+
+q ( To come out from )
+
+git show ( commit ID ) to check the commit changes
+
+git add . ( To move all the files from workspace to staging in a single go )
+
+git commit -m "message" ( If you don't give the file name all the files will be commited )
+
+git show ( To see the content in the files )
+
+**********************************************************************************************
+
+GIT-HUB
+
+Create a github account ( https://github.com/signup?source=login )
+
+Create a Repository in ur github & copy the URL
+
+git clone ( github repository URL )
+
+ls
+
+cd ( Repository )
+
+ll
+
+touch filename
+
+git status
+
+git add filname
+
+git status
+
+git commit -m "message"
+
+git log
+
+git push
+
+You will see the pop-up of signin with browser
+
+Rrefresh the repository to see the files in web portal
+
+If you do any changes in the file again you need to add & commit then push again.
+
+If you delete the file you can see it in the git status as deleted - You can commit to delete from cloud repo.
+
+*****************************************************************************
+GIT File:
+
+touch Prasad
+
+git add Prasad
+
+git commit -m "Created a file and uploaded the latest version on code" Prasad
+
+git push
+
+Delete:
+
+rm -rf Prasad
+
+git status
+
+git commit -m "File deleted as we have some miscommunication" Prasad
+
+git push ( To delete in centralized repo )
+
+GIT Branch:
+ 
+git branch ( To list all the branches )
+ 
+git branch name
+
+git checkout name
+
+git merge name
+
+git push URL ( Branch Name )
+
+git push origin branch name ( Instead of URL to push to main branch )
+
+git branch -d ( Branch Name ) 
+
+git branch -D ( Branch Name ) to delete forcefully
+
+git push origin -d ( Branch Name )
+
+git cherry-pick (CID)
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+git branch
+git branch testing
+git checkout testing
+ls
+cd Git/
+ls
+touch testfile2 testfile3
+git status
+git add . && git commit -m "commiting for my branch files" testfile2 testfile3
+git log
+ls
+vi testfile1
+git status
+git add testfile1
+git commit -m "Added few changes in my testfile1" testfile1
+git push origin testing
+git checkout main
+git merge testing
+
+git branch -r 
+
+git checkout branchname
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+GIT Amend:
+
+git commit -- amend -m "For change the commit message" ( To change the commit message for only latest commit log )
+
+git commit --amend -m "For change the commit message" -m "Ticket ID" 
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+GIT Filtering:
+
+git log -2 ( Change the number to see only mentioned number of logs )
+
+git log --oneline ( To see all the logs in oneline )
+
+git show Log ID ( To see the complete content in the log )
+
+git log --oneline -2 ( To see the mentioned number of logs in oneline )
+
+git log --author "Prasad" ( To see the logs of the author or user )
+
+git log --since="2025-10-28" or git log --since="December 18 2025"
+
+git config --list ( To list modifications of user information list )
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+Alias: To chnage the shortcuts of the commands
+
+git config --global alias.l "log"
+
+git config --global alias.s "status"
+
+git config --global --unset alias.s ( To remove the status shortcuts )
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+To commit directly without adding the file to staging
+
+Workspace > Staging > Local Repo 
+
+The below process is only for workspace > Local Repo ( But first commit should follow the 3 steps }
+
+Only for modified files
+
+git commit -am "message"
+
+EX: touch prasad
+git commit -m "message" ( Will not commit )
+
+git add prasad && git commit -m "message" prasad
+
+Modified: vi prasad
+git commit -m "message" prasad ( Now you can commit directly without adding to staging )
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+File Backward:
+
+git reset HEAD filename (Staging to workspace)
+
+git reset --soft (CID) n-1 (Local repo to staging)
+
+git reset --mixed (CID) n-1 (Local repo to workspace)
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+GIT TAG:
+
+git tag
+
+git tag (Tag Name) CID
+
+git checkout (Tag Name) CID
+
+git tag -d (Tag Name) CID
+
+git push origin (Tag Name) (You can see the TAG in ur github web to check and download)
+
+git push origin -d (Tag Name) 
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
