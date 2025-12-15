@@ -1,3 +1,0 @@
-adding new line for AWS
-create a new instance
-create vpc 

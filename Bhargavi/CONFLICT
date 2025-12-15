@@ -1,5 +1,0 @@
-GIT CONFLICT:
-
-when when we are trying to merge two branches,
-if a same file having different code, git will unable to merge automatically.
-------------
