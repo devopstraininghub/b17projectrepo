@@ -1,0 +1,14 @@
+GIT :
+
+git init - to initialize a empty repo
+git config --global user.name <user_name>
+git config --global user.email <user_email id>
+
+touch file1_name
+git status - workspace (untracked - red)
+git add <file_name>
+git status - green (staging - tracking stated)
+git commit -m "commit message" <file_name>
+git status 
+git log - shows the commit logs history
+
