@@ -1,0 +1,37 @@
+provider "aws" {
+    region = "us-east-1"
+    alias = "nv"
+  
+}
+
+provider "aws" {
+    region = "ap-south-1"
+    alias = "mumbai"
+  
+}
+
+resource "aws_instance" "ser-nv" {
+    ami = "ami-0f3caa1cf4417e51b"
+    instance_type = "t2.micro"
+    key_name = "Kalyankey"
+    count = 1
+    provider = aws.nv
+  
+    tags = {
+        Name = "ser1-nv"
+      
+    }
+}
+
+resource "aws_instance" "ser-mumbai" {
+    ami = "ami-051a31ab2f4d498f5"
+    instance_type = "t2.micro"
+    key_name = "mumkey"
+    count = 1
+    provider = aws.mumbai
+  
+    tags = {
+        Name = "ser4-bombay"
+      
+    }
+}
