@@ -1,0 +1,6 @@
+GIT RESET:
+
+git reset HEAD <file_name> ------> staging to workspace
+git reset --soft cid (n-1) ------> Local repo to staging
+git reset --mixed cid (n-1) -----> Local repo to workspace
+----------
