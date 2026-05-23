@@ -1,0 +1,12 @@
+Focus strongly on:
+
+Dockerfile
+Image vs Container
+Volumes
+Port Mapping
+Docker Compose
+CMD vs ENTRYPOINT
+Networking
+Docker lifecycle
+Docker Hub
+Containerization benefits
