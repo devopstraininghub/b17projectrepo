@@ -1,0 +1,32 @@
+15. Service
+
+Exposes pods internally/externally.
+
+Types:
+
+ClusterIP
+NodePort
+LoadBalancer
+16. ClusterIP
+
+Internal communication inside cluster.
+
+Default service type.
+
+17. NodePort
+
+Exposes app using node IP + port.
+
+18. LoadBalancer
+
+Creates external cloud load balancer.
+
+Used in AWS/Azure/GCP.
+
+19. Ingress
+
+Manages HTTP/HTTPS routing.
+
+Example:
+
+domain.com → application
