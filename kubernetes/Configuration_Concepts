@@ -1,0 +1,29 @@
+20. ConfigMap
+
+Stores non-sensitive configuration data.
+
+Example:
+
+App settings
+URLs
+21. Secret
+
+Stores sensitive data securely.
+
+Examples:
+
+Passwords
+API keys
+Tokens
+Storage Concepts
+22. Volume
+
+Temporary/persistent pod storage.
+
+23. Persistent Volume (PV)
+
+Cluster storage resource.
+
+24. Persistent Volume Claim (PVC)
+
+Request for storage by pod.
