@@ -1,0 +1,27 @@
+12. Deployment
+
+Used to manage pods declaratively.
+
+Features:
+
+Scaling
+Rolling updates
+Self-healing
+
+Example:
+
+kind: Deployment
+13. ReplicaSet
+
+Ensures desired number of pod replicas run.
+
+Example:
+
+3 replicas = always maintain 3 pods
+14. Scaling
+
+Increase/decrease pod count.
+
+Command:
+
+kubectl scale deployment app --replicas=5
