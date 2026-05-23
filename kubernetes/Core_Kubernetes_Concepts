@@ -1,0 +1,46 @@
+1. Cluster
+
+A Kubernetes environment containing:
+
+Master (Control Plane)
+Worker Nodes
+
+Example:
+
+Cluster = Control Plane + Worker Nodes
+2. Node
+
+A machine inside cluster.
+
+Types:
+
+Master Node
+Worker Node
+
+Can be:
+
+Virtual Machine
+Physical Server
+Cloud Instance
+3. Pod
+
+Smallest deployable unit in Kubernetes.
+
+Contains:
+
+One or more containers
+
+Example:
+
+Pod → Docker Container
+
+Important:
+Containers inside same pod share:
+
+Network
+Storage
+4. Container
+
+Application runtime unit.
+
+Usually Docker containers.
