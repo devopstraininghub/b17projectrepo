@@ -1,0 +1,47 @@
+1. Container
+
+A lightweight isolated environment to run applications.
+
+Contains:
+
+Application code
+Libraries
+Dependencies
+
+Example:
+
+App + Dependencies = Container
+2. Image
+
+Blueprint/template used to create containers.
+
+Example:
+
+docker pull nginx
+
+nginx = Docker image
+
+3. Docker Engine
+
+Main Docker runtime.
+
+Responsible for:
+
+Building images
+Running containers
+Managing networking/storage
+4. Docker Daemon
+
+Background service running Docker operations.
+
+Command:
+
+dockerd
+5. Docker CLI
+
+Command-line interface.
+
+Example:
+
+docker ps
+docker images
