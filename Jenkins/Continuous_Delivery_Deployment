@@ -1,0 +1,11 @@
+After successful testing, Jenkins can:
+
+Deploy applications automatically
+Upload files to servers/cloud
+Restart services
+
+Examples:
+
+Deploy website to AWS
+Push Docker images
+Kubernetes deployments
