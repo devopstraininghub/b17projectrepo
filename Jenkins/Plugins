@@ -1,0 +1,10 @@
+Extend Jenkins functionality.
+
+Popular plugins:
+
+Git plugin
+Docker plugin
+Pipeline plugin
+Kubernetes plugin
+
+Jenkins heavily depends on plugins.
