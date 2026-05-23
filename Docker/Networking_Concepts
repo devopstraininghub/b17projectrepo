@@ -1,0 +1,22 @@
+23. Docker Network
+
+Allows containers to communicate.
+
+Types:
+
+Bridge
+Host
+Overlay
+24. Port Mapping
+
+Connect container port to host machine.
+
+Example:
+
+docker run -p 8080:80 nginx
+
+Host:
+8080
+
+Container:
+80
