@@ -1,0 +1,10 @@
+26. YAML Files
+
+Used to define Kubernetes resources.
+
+Example:
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: mypod:
