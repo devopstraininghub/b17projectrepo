@@ -1,0 +1,7 @@
+Tomcat acts as a web server that handles:
+
+HTTP requests
+Responses from web applications
+
+Example:
+Browser → Tomcat → Java Application
