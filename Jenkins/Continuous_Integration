@@ -1,0 +1,11 @@
+Developers regularly push code to Git repositories, and Jenkins automatically:
+
+Pulls the latest code
+Builds the project
+Runs tests
+Reports errors
+
+Purpose:
+
+Detect bugs early
+Automate development workflow
