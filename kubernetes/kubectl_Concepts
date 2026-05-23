@@ -1,0 +1,26 @@
+27. kubectl
+
+Command-line tool for Kubernetes.
+
+Examples:
+
+kubectl get pods
+kubectl get nodes
+28. Apply Configuration
+kubectl apply -f app.yaml
+Pod Lifecycle
+29. Pod States
+Pending
+Running
+Succeeded
+Failed
+CrashLoopBackOff
+Self-Healing
+30. Self-Healing
+
+Kubernetes automatically:
+
+Restarts failed containers
+Recreates deleted pods
+
+Very important feature.
