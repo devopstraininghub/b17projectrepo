@@ -1,0 +1,13 @@
+A task Jenkins performs.
+
+Types:
+
+Freestyle Project
+Pipeline
+Multibranch Pipeline
+
+Example:
+
+Build Java app
+Run Python tests
+Deploy Node.js website
