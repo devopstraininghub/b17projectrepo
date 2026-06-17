@@ -1,0 +1,11 @@
+Linux basic commands
+ls -ltrh
+cp
+mv
+rm
+vim
+cat
+grep
+ifconfig
+ps
+
