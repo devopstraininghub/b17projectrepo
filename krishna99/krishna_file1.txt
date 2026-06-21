@@ -1,0 +1,7 @@
+Hi, welcome to DevOps
+
+Hello, practice DevOps
+
+added file to staging
+
+new line in feature branch
