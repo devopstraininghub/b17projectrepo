@@ -1,0 +1,5 @@
+AMEND:
+
+git amend is used to edit latest commit message
+git commit --amend -m "updated commit message"
+---------
