@@ -1,0 +1,7 @@
+| Docker             | Kubernetes                   |
+| ------------------ | ---------------------------- |
+| Creates containers | Manages containers           |
+| Single host focus  | Multi-node orchestration     |
+| Container runtime  | Container orchestration      |
+| Simple deployments | Enterprise-scale deployments |
+

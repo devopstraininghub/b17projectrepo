@@ -1,0 +1,11 @@
+31. Rolling Update
+
+Updates application without downtime.
+
+32. Rollback
+
+Revert to previous version.
+
+Command:
+
+kubectl rollout undo deployment app

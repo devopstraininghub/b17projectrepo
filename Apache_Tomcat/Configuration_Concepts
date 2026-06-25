@@ -1,0 +1,58 @@
+17. server.xml
+
+Main configuration file.
+
+Contains:
+
+Ports
+Connectors
+Hosts
+Engine settings
+18. Port Number
+
+Default Tomcat port:
+
+8080
+
+Can be changed in:
+
+<Connector port="8080" />
+19. Host
+
+Defines virtual hosts.
+
+Example:
+
+Multiple domains on same Tomcat server
+20. Connector
+
+Handles communication protocols.
+
+Examples:
+
+HTTP
+HTTPS
+AJP
+Security Concepts
+21. tomcat-users.xml
+
+Stores:
+
+Users
+Passwords
+Roles
+
+Used for admin access.
+
+22. Roles
+
+Examples:
+
+manager-gui
+admin-gui
+
+Controls permissions.
+
+23. SSL/HTTPS
+
+Tomcat supports secure communication using certificates.:

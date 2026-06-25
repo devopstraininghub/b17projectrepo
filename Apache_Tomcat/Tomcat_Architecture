@@ -1,0 +1,68 @@
+Catalina
+
+Core servlet container of Tomcat.
+
+Responsible for:
+
+Request processing
+Servlet lifecycle
+Session management
+6. Coyote
+
+HTTP connector component.
+
+Handles:
+
+HTTP/HTTPS communication
+Client connections
+7. Jasper
+
+JSP engine.
+
+Converts:
+JSP → Java Servlet
+
+Important Directories
+8. bin/
+
+Contains startup scripts.
+
+Examples:
+
+startup.sh
+shutdown.sh
+
+Windows:
+
+startup.bat
+9. conf/
+
+Configuration files.
+
+Important files:
+
+server.xml
+web.xml
+tomcat-users.xml
+10. webapps/
+
+Deployment folder.
+
+WAR files placed here get deployed automatically.
+
+Example:
+
+webapps/myapp.war
+11. logs/
+
+Stores log files.
+
+Useful for debugging.
+
+12. temp/
+
+Temporary runtime files.
+
+13. work/
+
+Compiled JSP servlet files stored here.

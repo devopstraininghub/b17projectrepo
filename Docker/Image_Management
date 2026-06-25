@@ -1,0 +1,23 @@
+Image Management
+18. Build Image
+docker build -t myapp .
+19. Tag Image
+docker tag myapp v1
+20. Push Image
+
+Upload image to registry.
+
+docker push username/myapp
+Docker Registry
+21. Docker Hub
+
+Public image repository.
+
+Example images:
+
+nginx
+ubuntu
+mysql
+22. Private Registry
+
+Store company/private images securely.

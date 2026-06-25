@@ -1,0 +1,33 @@
+12. Dockerfile
+
+Text file containing instructions to build image.
+
+Example:
+
+FROM python:3.10
+COPY . /app
+WORKDIR /app
+RUN pip install -r requirements.txt
+CMD ["python","app.py"]
+13. FROM
+
+Base image.
+
+Example:
+
+FROM ubuntu
+14. COPY
+
+Copies files into container.
+
+15. RUN
+
+Executes commands during image build.
+
+16. CMD
+
+Default command when container starts.
+
+17. ENTRYPOINT
+
+Main executable for container.

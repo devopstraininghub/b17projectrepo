@@ -1,0 +1,13 @@
+25. Volume
+
+Persistent storage for containers.
+
+Example:
+
+docker volume create mydata
+
+Data remains even if container is deleted.
+
+26. Bind Mount
+
+Maps local directory into container.

@@ -1,0 +1,26 @@
+27. Docker Compose
+
+Used to run multi-container applications.
+
+Example:
+
+App
+Database
+Redis
+
+All together.
+
+28. docker-compose.yml
+
+Configuration file.
+
+Example:
+
+version: '3'
+services:
+  web:
+    image: nginx
+  db:
+    image: mysql
+29. Start Compose Services
+docker-compose up

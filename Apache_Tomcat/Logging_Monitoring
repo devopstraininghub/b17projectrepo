@@ -1,0 +1,14 @@
+26. Catalina Logs
+
+Main server logs.
+
+Example:
+
+catalina.out
+27. Access Logs
+
+Tracks:
+
+Client requests
+IPs
+URLs

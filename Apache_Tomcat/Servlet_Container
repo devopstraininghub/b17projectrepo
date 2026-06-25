@@ -1,0 +1,11 @@
+Main purpose of Tomcat.
+
+It executes:
+
+Java Servlets
+JSP pages
+
+Also called:
+
+Web Container
+Servlet Engine

@@ -1,0 +1,49 @@
+5. Control Plane (Master Node)
+
+Manages cluster operations.
+
+Components:
+
+API Server
+Scheduler
+Controller Manager
+etcd
+6. API Server
+
+Main entry point of Kubernetes.
+
+Handles:
+
+kubectl requests
+REST API communication
+7. etcd
+
+Key-value database storing cluster data.
+
+Stores:
+
+Configuration
+Cluster state
+8. Scheduler
+
+Decides which node runs a pod.
+
+9. Controller Manager
+
+Maintains desired cluster state.
+
+Example:
+
+Restart failed pods automatically
+Worker Node Components
+10. Kubelet
+
+Agent running on each worker node.
+
+Responsible for:
+
+Managing pods
+Communicating with API Server
+11. Kube Proxy
+
+Handles networking between pods/services.

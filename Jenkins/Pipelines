@@ -1,0 +1,10 @@
+Pipeline = automation workflow written as code.
+
+Stored in:
+Jenkinsfile
+
+Advantages:
+
+Version controlled
+Reusable
+Easy automation

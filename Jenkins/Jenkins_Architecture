@@ -1,0 +1,17 @@
+Master (Controller)
+
+Controls:
+
+Job scheduling
+UI
+Pipeline execution
+Plugins
+Agent (Node/Slave)
+
+Performs:
+
+Builds
+Tests
+Deployments
+
+Useful for distributed builds.

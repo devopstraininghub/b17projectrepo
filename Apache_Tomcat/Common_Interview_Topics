@@ -1,0 +1,13 @@
+Focus strongly on:
+
+WAR deployment
+Servlet lifecycle
+JSP
+server.xml
+Tomcat architecture
+Catalina/Coyote/Jasper
+Session management
+Ports/connectors
+Reverse proxy
+Tomcat Manager
+Difference between Apache & Tomcat

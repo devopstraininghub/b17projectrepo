@@ -1,0 +1,33 @@
+WAR File
+
+WAR = Web Application Archive.
+
+Contains:
+
+Java classes
+JSP
+Libraries
+Configurations
+
+Deployment:
+
+myapp.war
+
+Tomcat extracts and runs it.
+
+15. Context Path
+
+Application URL path.
+
+Example:
+
+http://localhost:8080/myapp
+
+Here:
+myapp = context path
+
+16. Hot Deployment
+
+Deploy application without restarting Tomcat.
+
+Very useful in development:wq.

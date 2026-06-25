@@ -1,0 +1,18 @@
+6. Pull Image
+
+Download image from registry.
+
+docker pull ubuntu
+7. Run Container
+
+Create and start container.
+
+docker run nginx
+8. List Running Containers
+docker ps
+9. Stop Container
+docker stop container_id
+10. Remove Container
+docker rm container_id
+11. Remove Image
+docker rmi image_id

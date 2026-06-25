@@ -1,0 +1,15 @@
+24. Session
+
+Stores user data temporarily.
+
+Example:
+
+Login information
+Shopping cart
+25. Cookie Handling
+
+Tomcat uses cookies like:
+
+JSESSIONID
+
+For session tracking.

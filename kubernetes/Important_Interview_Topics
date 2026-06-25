@@ -1,0 +1,14 @@
+Focus strongly on:
+
+Pod
+Deployment
+Service
+Ingress
+ReplicaSet
+ConfigMap vs Secret
+PV/PVC
+Rolling updates
+kubectl commands
+Master vs Worker Node
+Self-healing
+Scaling
