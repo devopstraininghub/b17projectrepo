@@ -1,0 +1,52 @@
+from typing import List
+
+class Solution:
+    def pathExistenceQueries(self, n: int, nums: List[int], maxDiff: int, queries: List[List[int]]) -> List[int]:
+       
+        order = sorted(range(n), key=lambda i: nums[i])
+        sortedVal = [nums[i] for i in order]
+        pos = [0] * n
+        for idx, orig in enumerate(order):
+            pos[orig] = idx
+
+        
+        farthest = [0] * n
+        j = 0
+        for i in range(n):
+            if j < i:
+                j = i
+            while j + 1 < n and sortedVal[j + 1] - sortedVal[i] <= maxDiff:
+                j += 1
+            farthest[i] = j
+
+        LOG = max(1, n.bit_length() + 1)
+        up = [farthest]
+        for k in range(1, LOG):
+            prev = up[-1]
+            cur = [prev[prev[i]] for i in range(n)]
+            up.append(cur)
+
+        ans = []
+        for u, v in queries:
+            if u == v:
+                ans.append(0)
+                continue
+            p, q = pos[u], pos[v]
+            if p > q:
+                p, q = q, p
+
+            dist = 0
+            cur = p
+            for k in range(LOG - 1, -1, -1):
+                if up[k][cur] < q:
+                    cur = up[k][cur]
+                    dist += (1 << k)
+
+            if farthest[cur] >= q:
+                dist += 1
+            else:
+                dist = -1
+
+            ans.append(dist)
+
+        return ans
