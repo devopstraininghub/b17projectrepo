@@ -1,8 +1,0 @@
-Dynamic web pages using Java.
-
-Example:
-
-<%= "Hello World" %>
-
-
-Tomcat converts JSP → Servlet internally.:
